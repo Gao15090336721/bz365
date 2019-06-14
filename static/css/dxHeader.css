@@ -1,0 +1,138 @@
+* {
+  font-family: Arial, "Times New Roman", "Microsoft YaHei", SimHei !important;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 14px; }
+
+a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none; }
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+
+header li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-left: 60px; }
+
+header li a {
+  font-size: 16px;
+  color: #666;
+  text-decoration: none;
+  line-height: 80px; }
+
+header li a:hover {
+  color: #fff;
+  text-decoration: underline; }
+
+header li:first-child {
+  margin-left: 0;
+  border-radius: 4px 4px 0 0; }
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 100%;
+  max-width: 1280px;
+  margin: 0 auto; }
+
+.box img {
+  width: 136px; }
+
+.ewmBox {
+  padding: 4px;
+  z-index: 999999;
+  position: absolute;
+  top: 81px;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  display: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+.home-ewm {
+  width: 100% !important;
+  height: 100%; }
+
+.active {
+  position: relative;
+  height: 100%; }
+
+.active:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom: 3px solid #e62f17; }
+
+.active a {
+  color: #e62f17; }
+.s-warpper {
+  padding-top: 10px;
+  position: fixed;
+  top: 80px;
+  z-index: 999999; }
+.submenu {
+  display: flex;
+  flex-direction: column; }
+
+.submenu li {
+  padding: 10px;
+  margin-left: 0;
+  background: #fff;
+  border: 1px solid #eee;
+  border-bottom: none; }
+
+.submenu li:nth-child(2) div {
+  top: 0;
+  border: none; }
+
+.submenu li:last-child {
+  border: 1px solid #eee;
+  border-radius: 0 0 4px 4px; }
+
+.submenu li a {
+  margin-bottom: 0 !important;
+  color: #666; }
+
+.submenu {
+  display: none; }
+.triangle-border-up {
+  position: absolute;
+  top: -8px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 9px solid #eee; }
+
+.triangle-border-up span {
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 9px solid #fff;
+  position: absolute;
+  bottom: -10px;
+  left: -7px; }
+
+.submenu li {
+  position: relative; }
+
+.submenu .active:before {
+  border-bottom: none !important; }
+
+.submenu li a:before {
+  border-bottom: none !important; }   
